@@ -1,0 +1,82 @@
+* 
+{
+  margin: 0;
+}
+body
+{
+  min-width: 770px;
+}
+
+.app__header
+{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.app__stats
+{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.app__left
+{
+  flex: 0.8;
+  padding: 20px;
+}
+
+.app
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+.infoBox
+{
+  width: 200px;
+}
+
+.infoBox__title
+{
+  color: #03396c;
+}
+
+.app__graph
+{
+  margin-top: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+}
+.recovery
+{
+  box-shadow: 0 4px 8px 0 rgba(52, 191, 89,0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.deaths
+{
+  box-shadow: 0 4px 8px 0 rgba(207, 64, 64,0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cases
+{
+  box-shadow: 0 4px 8px 0 rgba(207, 169, 64,0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tableDiv
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 20px;
+
+}
+
+
+@media (max-width: 990px)
+{
+  .app
+  {
+    flex-direction: column;
+  }
+  .app__left
+  {
+    flex: 1;
+  }
+}
